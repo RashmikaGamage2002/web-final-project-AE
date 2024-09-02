@@ -988,26 +988,6 @@ button, a { transition: 0.25s ease; }
   margin-bottom: 15px;
 }
 
-.blog-card .card-meta-link,
-.blog-card .publish-date {
-  color: #154360;
-  font-size: 0.875rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  transition: color 0.3s ease;
-}
-
-.blog-card .card-meta-link ion-icon,
-.blog-card .publish-date ion-icon {
-  color: #154360;
-}
-
-.blog-card .card-meta-link:hover,
-.blog-card .card-meta-link:focus {
-  color: #154360;
-}
 
 .blog-title {
   font-size: 1rem;
@@ -1026,6 +1006,10 @@ button, a { transition: 0.25s ease; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #154360;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .blog-card .read-more-btn {
@@ -1132,6 +1116,7 @@ button, a { transition: 0.25s ease; }
   display: grid;
   gap: 15px;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .contact-link {
