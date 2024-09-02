@@ -173,6 +173,8 @@ button, a { transition: 0.25s ease; }
 .section-title {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 2.9em;
+  color: #023247;
 }
 
 .card-badge {
@@ -414,7 +416,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 2.9em;
   margin: 20px 0;
 }
 
@@ -563,7 +565,7 @@ button, a { transition: 0.25s ease; }
 
 
 .service {
-  background: #f2f2f2;
+  background: #dde7f0;
   padding-block: 100px;
 }
 
@@ -646,7 +648,7 @@ button, a { transition: 0.25s ease; }
   left: 0;
   width: 0;
   height: 4px;
-  background: #f15a29;
+  background: #0dc5fd;
   transition: 0.3s ease;
 }
 
@@ -728,7 +730,7 @@ button, a { transition: 0.25s ease; }
 
 .banner-actions-btn:hover,
 .banner-actions-btn:focus {
-  color: #f15a29;
+  color: #05d0f4;
 }
 
 .property-card .card-content {
@@ -737,7 +739,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .card-price {
-  color: #f15a29;
+  color: #154360;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   margin-bottom: 5px;
@@ -755,7 +757,7 @@ button, a { transition: 0.25s ease; }
 
 .property-card .card-title > a:hover,
 .property-card .card-title > a:focus {
-  color: #f15a29;
+  color: #05d0f4;
 }
 
 .property-card .card-text {
@@ -820,7 +822,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .author-name > a {
-  color: #003300;
+  color: #154360;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -829,7 +831,7 @@ button, a { transition: 0.25s ease; }
 
 .author-name > a:hover,
 .author-name > a:focus {
-  color: #f15a29;
+  color: #05d0f4;
 }
 
 .author-title {
@@ -854,7 +856,7 @@ button, a { transition: 0.25s ease; }
 
 .card-footer-actions-btn:hover,
 .card-footer-actions-btn:focus {
-  background: #f15a29;
+  background: #05d0f4;
   color: #ffffff;
 }
 
@@ -866,7 +868,7 @@ button, a { transition: 0.25s ease; }
 \*-----------------------------------*/
 
 .features {
-  background: #f2f2f2;
+  background: #dde7f0;
   padding-block: 100px;
 }
 
@@ -897,12 +899,12 @@ button, a { transition: 0.25s ease; }
 
 .features-card:hover,
 .features-card:focus {
-  background: #f15a29;
+  background: #154360;
 }
 
 .features-card .card-icon {
-  background: #fff5f1;
-  color: #f15a29;
+  background: #f7f9fa;
+  color: #154360;
   width: 60px;
   height: 60px;
   display: grid;
@@ -916,7 +918,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .features-card .card-title {
-  color: #003300;
+  color: #154360;
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
@@ -948,7 +950,7 @@ button, a { transition: 0.25s ease; }
 
 .features-card:hover .card-btn,
 .features-card:focus .card-btn {
-  color: #f15a29;
+  color: #05d0f4;
 }
 
 /*-----------------------------------*\
@@ -1003,12 +1005,12 @@ button, a { transition: 0.25s ease; }
 
 .blog-card .card-meta-link ion-icon,
 .blog-card .publish-date ion-icon {
-  color: #f15a29;
+  color: #154360;
 }
 
 .blog-card .card-meta-link:hover,
 .blog-card .card-meta-link:focus {
-  color: #f15a29;
+  color: #154360;
 }
 
 .blog-title {
@@ -1018,7 +1020,7 @@ button, a { transition: 0.25s ease; }
 
 .blog-card .blog-title:hover,
 .blog-card .blog-title:focus {
-  color: #fa5b3d;
+  color: #154360;
 }
 
 .blog-content-bottom {
@@ -1031,7 +1033,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .blog-card .read-more-btn {
-  color: #f15a29;
+  color: #154360;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1046,7 +1048,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .cta-card {
-  background: #f15a29;
+  background: #1a5276;
   padding: 50px 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1074,7 +1076,7 @@ button, a { transition: 0.25s ease; }
   align-items: center;
   gap: 10px;
   color: #000000;
-  background: #ffffff;
+  background: #ffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-color: #ffffff;
   margin-inline: auto;
@@ -1083,7 +1085,7 @@ button, a { transition: 0.25s ease; }
 .cta-btn:hover,
 .cta-btn:focus {
   background: none;
-  color: #ffffff;
+  color: #05d0f4;
   border-color: transparent;
 }
 
@@ -1154,7 +1156,7 @@ button, a { transition: 0.25s ease; }
 
 .contact-link:hover span,
 .contact-link:focus span {
-  color: #f15a29;
+  color: #29c9f1;
 }
 
 .social-list {
@@ -1181,7 +1183,7 @@ button, a { transition: 0.25s ease; }
 
 .footer-link:hover,
 .footer-link:focus {
-  color: #f15a29;
+  color: #02d8f9;
 }
 
 .footer-bottom {
@@ -1200,7 +1202,7 @@ button, a { transition: 0.25s ease; }
 
 .copyright a:hover,
 .copyright a:focus {
-  color: #f15a29;
+  color: #02d8f9;
 }
 
 
@@ -1685,6 +1687,9 @@ button, a { transition: 0.25s ease; }
     padding-left: 30px;
     max-width: 450px;
     margin-bottom: 40px;
+  }
+  .hero-title {
+    font-size: 2.9em;
   }
 
   /**
