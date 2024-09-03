@@ -1056,27 +1056,7 @@ button, a { transition: 0.25s ease; }
   line-height: 1.8;
 }
 
-.cta-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: #000000;
-  background: #ffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-color: #ffffff;
-  margin-inline: auto;
-}
 
-.cta-btn:hover,
-.cta-btn:focus {
-  background: none;
-  color: #05d0f4;
-  border-color: transparent;
-}
-
-.cta-btn::before {
-  background: #000000;
-}
 
 /*-----------------------------------*\
   #FOOTER
