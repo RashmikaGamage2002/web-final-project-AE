@@ -298,7 +298,7 @@ button, a { transition: 0.25s ease; }
 }
 
 .header-bottom {
-  background: #D3D3D3;
+  background: #f3d2ac;
   padding-block: 5px;
 }
 
@@ -351,7 +351,7 @@ button, a { transition: 0.25s ease; }
   font-weight: 600;
   text-transform: uppercase;
   padding-block: 10px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -415,7 +415,7 @@ button, a { transition: 0.25s ease; }
   align-items: center;
   box-sizing: border-box;
   min-height: 100vh;
-  background: url(images/bg.jpg) no-repeat;
+  background: url(images/bg1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -495,20 +495,17 @@ button, a { transition: 0.25s ease; }
   font-weight: 600;
   text-align: center;
 }
-.Login .register-link{
+
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
   font-size: 18px;
   text-align: center;
   margin: 20px 0 15px;
 
 }
-.register-link p a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.register-link p a:hover{
-  text-decoration: underline;
-}
+
 
 @media (min-width: 768px) {
   .Login {
