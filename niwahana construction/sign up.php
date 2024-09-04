@@ -218,7 +218,7 @@ if(isset($_POST['submit'])){
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 Group AE. All Rights Reserved
+           2024 Group AE. All Rights Reserved
         </p>
 
       </div>

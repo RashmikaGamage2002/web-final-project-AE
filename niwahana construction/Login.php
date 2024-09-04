@@ -124,7 +124,7 @@ if(isset($_POST['submit'])){
                 <label><input type="checkbox"><b>Remember Me</b></label>
                 <a><b>Forgot Password</b></a>
               </div>
-              <button type="submit" class="btn"><b><a href="BUY.html">Login</a></b></button>
+              <button type="submit" class="btn"><b><a href="BUY.php">Login</a></b></button>
               
             </form>
           </div>

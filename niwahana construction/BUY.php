@@ -83,7 +83,7 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                <a href="index.php" class="navbar-link" data-nav-link>Home</a>
               </li>
 
               <li>
@@ -529,7 +529,7 @@
                   </h3>
 
                   <p class="card-text">
-                  Magnificent Single-family Home in Nugegoda, Recently Renovated for You and Your Family. Furniture includes.&nbsp; </p>
+                  Magnificent Single-family Home in Nugegoda, Recently Renovated for You and Your Family. Furniture includes. </p>
 
                   <ul class="card-list">
 
@@ -570,7 +570,7 @@
                     </figure>
 
                     <div>
-                      <p class="author-name">Hashan Thilakarathna</p>
+                      <p class="author-name">Hashan D. Thilakarathna</p>
 
                       <p class="author-title">Estate Agents</p>
                     </div>
@@ -638,7 +638,8 @@
                   </h3>
 
                   <p class="card-text">
-                  Discover a beautifully designed 3-story house sitting on 10 perches of land, offering a perfect blend of modern convenience and traditional craftsmanship. This property is ideal for those seeking a spacious family home equipped with high-quality furnishings and thoughtful details&nbsp; </p>
+                  Discover a beautifully designed 3-story house sitting on 10 perches of land, offering a perfect blend of modern convenience and traditional craftsmanship.
+                   This property is ideal for those seeking a spacious family home equipped with high-quality furnishings and thoughtful details&nbsp; </p>
 
                   <ul class="card-list">
 
@@ -860,7 +861,7 @@
                   </h3>
 
                   <p class="card-text">
-                  Discover a luxurious house in the heart of Waskaduwa, boasting modern amenities and stunning ocean views. Recently renovated, this beautifully designed property features elegant interiors, spacious living areas, and a private pool. Ideal for those seeking a tranquil and upscale retreat.&nbsp; </p>
+                  Discover a luxurious house in the heart of Balangoda, boasting modern amenities and stunning views. Recently renovated, this beautifully designed property features elegant interiors, spacious living areas, and a private pool. Ideal for those seeking a tranquil and upscale retreat. </p>
 
                   <ul class="card-list">
 

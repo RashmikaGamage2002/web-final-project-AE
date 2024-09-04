@@ -52,9 +52,7 @@
         </ul>
 
         <div class="wrapper">
-          
-
-          <button class="header-top-btn">Add Listing</button>
+   
         </div>
 
       </div>
@@ -374,7 +372,7 @@
                 <figure class="card-banner">
 
                   <a href="sign up.php">
-                    <img src="images/property-1.jpg" alt="Luxury House" class="w-100">
+                    <img src="images/pro1.jpg" alt="Luxury House" class="w-100">
                   </a>
 
                   <div class="card-badge green">For Sale</div>
@@ -484,7 +482,7 @@
                 <figure class="card-banner">
 
                   <a href="sign up.php">
-                    <img src="images/property-2.jpg" alt="Modern Apartments" class="w-100">
+                    <img src="images/pro2.jpg" alt="Modern Apartments" class="w-100">
                   </a>
 
                   <div class="card-badge orange">For Rent</div>
@@ -595,7 +593,7 @@
                 <figure class="card-banner">
 
                   <a href="sign up.php">
-                    <img src="images/property-4.jpg" alt="Comfortable Apartment" class="w-100">
+                    <img src="images/pro4.jpg" alt="Comfortable Apartment" class="w-100">
                   </a>
 
                   <div class="card-badge green">For Sale</div>
@@ -706,7 +704,7 @@
                 <figure class="card-banner">
 
                   <a href="sign up.php">
-                    <img src="images/property-3.jpg" alt="Luxury villa in Arugambay" class="w-100">
+                    <img src="images/pro3.jpg" alt="Luxury villa in Arugambay" class="w-100">
                   </a>
                   <div class="card-badge orange">For Rent</div>
 
@@ -986,7 +984,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-1.png" alt="Interior Design" class="w-100">
+                  <img src="images/bl1.png" alt="Interior Design" class="w-100">
                 </figure>
 
                 <div class="blog-content">
@@ -1012,7 +1010,7 @@
                       <time datetime="2024-09-01">Sep 01, 2024</time>
                     </div>
 
-                    <a href="#" class="read-more-btn">Read More</a>
+                    <a href="News.php#Blog1" class="read-more-btn">Read More</a>
                   </div>
 
                 </div>
@@ -1024,7 +1022,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-2.jpg" alt="Choose a House" class="w-100">
+                  <img src="images/bl2.jpg" alt="Choose a House" class="w-100">
                 </figure>
 
                 <div class="blog-content">
@@ -1038,7 +1036,7 @@
                     </ul>
 
                     <h3 class="h3 blog-title">
-                      <a >How to Choose the Right House?</a>
+                      <a >How to Choose the Right House For Your Family?</a>
                     </h3>
 
                   </div>
@@ -1050,7 +1048,7 @@
                       <time datetime="2024-08-31">Aug 31, 2024</time>
                     </div>
 
-                    <a href="#" class="read-more-btn">Read More</a>
+                    <a href="News.php#Blog2" class="read-more-btn">Read More</a>
                   </div>
 
                 </div>
@@ -1062,7 +1060,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-3.jpg" alt="Sell a House"
+                  <img src="images/bl3.jpg" alt="Sell a House"
                     class="w-100">
                 </figure>
 
@@ -1089,7 +1087,7 @@
                       <time datetime="2024-27-08">Aug 27, 2024</time>
                     </div>
 
-                    <a href="#" class="read-more-btn">Read More</a>
+                    <a href="News.php#Blog3" class="read-more-btn">Read More</a>
                   </div>
 
                 </div>
