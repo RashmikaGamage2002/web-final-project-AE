@@ -1,3 +1,38 @@
+<?php
+
+@include 'config.php';
+
+if(isset($_POST['submit'])){
+
+   $id = mysqli_real_escape_string($conn, $_POST['ID Number']);
+   $username = mysqli_real_escape_string($conn, $_POST['Username']);
+   $email = md5($_POST['Email']);
+   $pass = md5($_POST['Password']);
+   
+
+   $select = " SELECT * FROM user_db WHERE email = '$email' && password = '$pass' ";
+
+   $result = mysqli_query($conn, $select);
+
+   if(mysqli_num_rows($result) > 0){
+
+      $error[] = 'user already exist!';
+
+   }else{
+
+      if($pass != $cpass){
+         $error[] = 'password not matched!';
+      }else{
+         $insert = "INSERT INTO user_db(id, username, email, password) VALUES('$id','$username','$email','$pass')";
+         mysqli_query($conn, $insert);
+         header('location:Login.php');
+      }
+   }
+
+};
+
+
+?>
 
 <html lang="en">
 
@@ -47,7 +82,7 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                <a href="index.php" class="navbar-link" data-nav-link>Home</a>
               </li>
 
               <li>
@@ -71,6 +106,13 @@
           <div class="Login">
             <form action="">
               <h1>Sign Up</h1>
+              <?php
+              if(isset($error)){
+              foreach($error as $error){
+             echo '<span class="error-msg">'.$error.'</span>';
+              };
+             };
+               ?>
               <div class="input-box">
                 <input type="text" placeholder="ID Number" required>
                 <i class='bx bxs-user'></i>
@@ -91,9 +133,9 @@
               <div class="remember-forgot">
                 <label><input type="checkbox"><b>Remember Me</b></label>
               </div>
-              <button type="submit" class="btn"><b>sign up</b></button>
+              <button type="submit" class="btn"><a href="Login.php"><b>sign up</b></a></button>
               <div class="register-link">
-                <p><a href="Login.html"><b>You Alredy Have An Account<br>Login In Here</b></a></p>
+                <p><a href="Login.php"><b>You Alredy Have An Account<br>Login In Here</b></a></p>
               </div>
             </form>
           </div>
@@ -141,7 +183,7 @@
           </div>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+          Choose Niwahana constructions for your house construction needs and experience the excellence that has earned us the reputation of being the best house building contractor in Sri Lanka
           </p>
 
           <ul class="contact-list">

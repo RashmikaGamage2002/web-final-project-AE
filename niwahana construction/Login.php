@@ -1,3 +1,44 @@
+<?php
+
+@include 'config.php';
+
+session_start();
+
+if(isset($_POST['submit'])){
+
+   $name = mysqli_real_escape_string($conn, $_POST['name']);
+   $email = mysqli_real_escape_string($conn, $_POST['email']);
+   $pass = md5($_POST['password']);
+   $cpass = md5($_POST['cpassword']);
+   $user_type = $_POST['user_type'];
+
+   $select = " SELECT * FROM user_form WHERE email = '$email' && password = '$pass' ";
+
+   $result = mysqli_query($conn, $select);
+
+   if(mysqli_num_rows($result) > 0){
+
+      $row = mysqli_fetch_array($result);
+
+      if($row['user_type'] == 'admin'){
+
+         $_SESSION['admin_name'] = $row['name'];
+         header('location:admin_page.php');
+
+      }elseif($row['user_type'] == 'user'){
+
+         $_SESSION['user_name'] = $row['name'];
+         header('location:user_page.php');
+
+      }
+     
+   }else{
+      $error[] = 'incorrect email or password!';
+   }
+
+};
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,7 +66,7 @@
     <div class="header-bottom">
       <div class="container">
 
-        <a href="#" class="logo">
+        <a href="index.php" class="logo">
           <img src="images/logo.png" alt="NIWAHANA logo">
         </a>
 
@@ -47,7 +88,7 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                <a href="index.php" class="navbar-link" data-nav-link>Home</a>
               </li>
 
               <li>
@@ -131,7 +172,7 @@
           </div>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+          Choose Niwahana constructions for your house construction needs and experience the excellence that has earned us the reputation of being the best house building contractor in Sri Lanka
           </p>
 
           <ul class="contact-list">
@@ -157,34 +198,7 @@
 
           </ul>
 
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
+  
         </div>
 
         
@@ -196,7 +210,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 <a href="#">Group AE</a>. All Rights Reserved
+          2024 Group AE. All Rights Reserved
         </p>
 
       </div>
