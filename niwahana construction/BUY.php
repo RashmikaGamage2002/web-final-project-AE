@@ -1,0 +1,1071 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niwahana - Find your dream house</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="BUY.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="niwahanaconstruction@gmail.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>niwahanaconstruction@gmail.com</span>
+            </a>
+          </li>
+
+          <li>
+			  <a href="https://www.google.com/maps/place/Pasan%E2%80%99s+place/@6.8287194,80.0369283,20.26z/data=!4m6!3m5!1s0x3ae253978e4f4777:0x180a21b5bae212e7!8m2!3d6.829024!4d80.0373081!16s%2Fg%2F11vbtmrl42?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D " class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>505/A, Makumbura,Homagama,Sri Lanka</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          &nbsp;
+
+         
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="index.php" class="logo">
+          <img src="images/logo.png" alt="NIWAHANA logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li>
+                <a href="#Buy" class="navbar-link" data-nav-link>Buy</a>
+              </li>
+
+              <li>
+                <a href="#rent" class="navbar-link" data-nav-link>Rent</a>
+              </li>
+
+              <li>
+                <a href="#sell" class="navbar-link" data-nav-link>Sell</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+       
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+  <main>
+    <article>
+      <!-- 
+        - #Buy
+      -->
+
+      <section class="property" id="buy">
+        <div class="container">
+
+          <p class="section-subtitle">BUY</p>
+
+
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+            
+                    <img src="images/Home2.jpg" alt="Modern Apartments" class="w-100">
+                 
+
+                  <div class="card-badge orange">For Sale</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>
+                      Kandy, Central Province, Sri Lanka
+                      </address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR18,000,000/</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"> Kandy House&nbsp;</a>
+                  </h3>
+
+                  <p class="card-text">
+                  Peaceful surrounding, Exclusive Neighborhood 20 Feet wide road . Brand New two Storey Modern House for Sale in Kandy.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3000</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author2.jpg" alt="Nethmi" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Yashodya Nethmini</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  
+                    <img src="images/Home1.jpg" alt="Comfortable Apartment" class="w-100">
+                 
+
+                  <div class="card-badge orange">For Sale</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Matale, Central Province, Sri Lanka</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR 22,500,000/</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                  A classy, luxurious apartment in an ideal location. Large and elegantly designed, providing unrivalled comfort and modern facilities. Modern Features and High-End Finishes Have Just Been Added.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>6&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>4</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3800</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author4.jpg" alt="Ruwani" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Ruwani Weligama&nbsp;</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  
+                    <img src="images/Home3.jpg" alt="Luxury villa in Galle" class="w-100">
+
+                  <div class="card-badge orange">For Sale</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>
+                      Galle, Southern Province, Sri Lanka
+                      </address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR 18,100,000/</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury villa in Galle</a>
+                  </h3>
+
+                  <p class="card-text">
+                  Magnificent Opulent Villa in the Centre of Galle. This exquisitely crafted property with stunning views of the ocean and contemporary conveniences. It has sophisticated decor, roomy living areas, and a private pool thanks to recent renovations. Ideal for those looking for an opulent and peaceful vacation.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>4</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3050</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author.jpg" alt="Rashmika" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Rashmika Gamage</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Rent
+      -->
+
+      <section class="property" id="rent">
+        <div class="container">
+
+          <p class="section-subtitle">Rent</p>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  
+                    <img src="images/Home4.jpg" alt="Luxury House" class="w-100">
+                  
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>
+                      Nugegoda,Colombo, Sri Lanka
+                      </address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR140,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury House</a>
+                  </h3>
+
+                  <p class="card-text">
+                  Magnificent Single-family Home in Nugegoda, Recently Renovated for You and Your Family. Furniture includes.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>5&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>4</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3500</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author1.jpg" alt="Hashan " class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Hashan Thilakarathna</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+            
+                    <img src="images/Home5.jpg" alt="Modern Apartments" class="w-100">
+                 
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Matara, Southern Province, Sri Lanka</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR90,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"> Charming House&nbsp;</a>
+                  </h3>
+
+                  <p class="card-text">
+                  Discover a beautifully designed 3-story house sitting on 10 perches of land, offering a perfect blend of modern convenience and traditional craftsmanship. This property is ideal for those seeking a spacious family home equipped with high-quality furnishings and thoughtful details&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3&nbsp;</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3150</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author5.jpg" alt="Abhi" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Abinath</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  
+                    <img src="images/Home6.jpg" alt="Comfortable Apartment" class="w-100">
+                 
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>
+                      Jaffna, North Province, Sri Lanka
+                      </address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR70,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Two Story House&nbsp;</a>
+                  </h3>
+
+                  <p class="card-text">
+                  A classy, luxurious apartment in an ideal location. Large and elegantly designed, providing unrivalled comfort and contemporary amenities. Modern Features and High-End Finishes Have Just Been Added.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>4&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2&nbsp;</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2550</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author6.jpg" alt="Chiran Vithanage
+														 " class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">C T Vithanage</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  
+                    <img src="images/Home7.jpg" alt="Luxury villa in Rego Park" class="w-100">
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>
+                      Balangoda, Rathnapura, Sri Lanka
+                      </address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>LKR149,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury House</a>
+                  </h3>
+
+                  <p class="card-text">
+                  Discover a luxurious house in the heart of Waskaduwa, boasting modern amenities and stunning ocean views. Recently renovated, this beautifully designed property features elegant interiors, spacious living areas, and a private pool. Ideal for those seeking a tranquil and upscale retreat.&nbsp; </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>8&nbsp;</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>5&nbsp;</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>4250</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/author3.jpg" alt="Chandika" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">Chandika Wijewardene</p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+	  
+      <section class="Form" id="sell">
+        <div class="container">
+          <p class="section-subtitle">Sell Your Property</p>
+          
+          <form action="/submit_property" method="post" class="sell-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="property-title">Property Title</label>
+                <input type="text" id="property-title" name="property_title" placeholder="Enter property title" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="property-location">Location</label>
+                <input type="text" id="property-location" name="property_location" placeholder="Enter property location" required>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-group">
+                <label for="property-price">Price (LKR)</label>
+                <input type="number" id="property-price" name="property_price" placeholder="Enter price in LKR" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="property-size">Size (Square Ft)</label>
+                <input type="number" id="property-size" name="property_size" placeholder="Enter size in square feet" required>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="property-description">Description</label>
+                <textarea id="property-description" name="property_description" placeholder="Describe the property" rows="5" required></textarea>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="property-images">Upload Images</label>
+                <input type="file" id="property-images" name="property_images" accept="image/*" multiple required>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="contact_name" placeholder="Enter your name" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="contact_email" placeholder="Enter your email" required>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="contact-phone">Your Phone Number</label>
+                <input type="tel" id="contact-phone" name="contact_phone" placeholder="Enter your phone number" required>
+              </div>
+            </div>
+      
+            <button type="submit" class="btn">Submit Property</button>
+          </form>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" >
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <div   class="logo">
+            <img src="images/logo-light.png" alt="NIWAHANA logo">
+          </div>
+
+          <p class="section-text">
+            Choose Niwahana constructions for your house construction needs and experience the excellence that has earned us the reputation of being the best house building contractor in Sri Lanka </p>
+
+          <ul class="contact-list">
+
+            <li>
+                <ion-icon name="location-outline"></ion-icon>
+                <address>505/A, Makumbura,Homagama,Sri Lanka</address>
+              </a>
+            </li>
+
+            <li>
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+94771234567</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:niwahanaconstruction@gmail.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>niwahanaconstruction@gmail.com</span>
+              </a>
+            </li>
+
+          </ul>         
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          2024 Group AE. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+  
+</body>
+
+</html>

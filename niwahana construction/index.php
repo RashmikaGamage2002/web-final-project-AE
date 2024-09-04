@@ -34,7 +34,7 @@
         <ul class="header-top-list">
 
           <li>
-            <a href="mailto:info@homeverse.com" class="header-top-link">
+            <a href="mailto:niwahanaconstruction@gmail.com" class="header-top-link">
               <ion-icon name="mail-outline"></ion-icon>
 
               <span>niwahanaconstruction@gmail.com</span>
@@ -52,33 +52,7 @@
         </ul>
 
         <div class="wrapper">
-          <ul class="header-top-social-list">
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
+          
 
           <button class="header-top-btn">Add Listing</button>
         </div>
@@ -96,10 +70,6 @@
         <nav class="navbar" data-navbar>
 
           <div class="navbar-top">
-
-            <a href="#" class="logo">
-              <img src="images/logo.png" alt="NIWAHANA logo">
-            </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
               <ion-icon name="close-outline"></ion-icon>
@@ -141,23 +111,17 @@
 
         <div class="header-bottom-actions">
 
-          <button class="header-bottom-actions-btn" aria-label="Search">
-            <ion-icon name="search-outline"></ion-icon>
-
-            <span>Search</span>
-          </button>
 
           <a href="sign up.php" class="header-bottom-actions-btn" aria-label="Profile">
             <ion-icon name="person-outline"></ion-icon>
             <span>Profile</span>
           </a>
 
-          <button class="header-bottom-actions-btn" aria-label="Cart">
-          
+        
+          <a href="cart.php" class="header-bottom-actions-btn" aria-label="cart">
             <ion-icon name="cart-outline"></ion-icon>
-
             <span>Cart</span>
-          </button>
+            </a>
 
           <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
             <ion-icon name="menu-outline"></ion-icon>
@@ -319,11 +283,11 @@
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Find your dream home among our massive selection of 1000+ properties. Browse listings, filter by location, price, and amenities. 
+                Our user-friendly platform makes it easy to find the perfect place for you. Don’t miss out on this incredible opportunity to own your dream home.
                 </p>
 
-                <a href="sign up.php" class="card-link">
+                <a href="Buy.php#Buy" class="card-link">
                   <span>Find A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -344,11 +308,11 @@
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Discover your ideal rental home from our extensive selection of 900+ listings. Browse properties, filter by location, price, and amenities. 
+                Our user-friendly platform makes it easy to find the perfect place for you. Don’t miss out on this opportunity to find your new home.
                 </p>
 
-                <a href="sign up.php" class="card-link">
+                <a href="Buy.php#rent" class="card-link">
                   <span>Find A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -369,11 +333,11 @@
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Sell your home quickly and efficiently on our platform. Reach thousands of potential buyers with just a few clicks.<br>
+                 Our user-friendly tools and expert support make the selling process seamless. <br>List your home today and start receiving offers.
                 </p>
 
-                <a href="sign up.php" class="card-link">
+                <a href="Buy.php#sell" class="card-link">
                   <span>Find A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -436,7 +400,7 @@
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>LKR340,000</strong>/Month
+                    <strong>LKR20,350,000</strong>
                   </div>
 
                   <h3 class="h3 card-title">
@@ -486,7 +450,7 @@
                     </figure>
 
                     <div>
-                      <p class="author-name">Hashan Tilakarathna</p>
+                      <p class="author-name">Hashan D. Thilakarathna</p>
 
                       <p class="author-title">Estate Agents</p>
                     </div>
@@ -546,16 +510,16 @@
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>LKR99,900</strong>/Month
+                    <strong>LKR80,900</strong>/Month
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a> Peaceful Nest</a>
+                    <a> 2 Storey House</a>
                   </h3>
 
                   <p class="card-text">
-                    harming and Cozy Retreat in a Serene Neighborhood.
-                     Perfect for Relaxation, Newly Renovated with Modern Comforts and Warm, Inviting Décor.
+                  The property being described is a luxurious multi-storey residential building located in an exclusive area with like a gated compound, offering a high level of privacy and security.
+                   The house features a well-thought-out floor plan with comfortable living spaces distributed over two levels.
                   </p>
 
                   <ul class="card-list">
@@ -657,7 +621,7 @@
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>400,000</strong>/Month
+                    <strong>LKR1,400,000</strong>
                   </div>
 
                   <h3 class="h3 card-title">
@@ -742,9 +706,9 @@
                 <figure class="card-banner">
 
                   <a href="sign up.php">
-                    <img src="images/property-3.jpg" alt="Luxury villa in Rego Park" class="w-100">
+                    <img src="images/property-3.jpg" alt="Luxury villa in Arugambay" class="w-100">
                   </a>
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge orange">For Rent</div>
 
                   <div class="banner-actions">
 
@@ -1014,7 +978,7 @@
 
           <p class="section-subtitle">News & Blogs</p>
 
-          <h2 class="h2 section-title">Coustomer Feedback</h2>
+          <h2 class="h2 section-title">News and Blog</h2>
 
           <ul class="blog-list has-scrollbar">
 
@@ -1022,7 +986,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-1.png" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                  <img src="images/blog-1.png" alt="Interior Design" class="w-100">
                 </figure>
 
                 <div class="blog-content">
@@ -1036,7 +1000,7 @@
                     </ul>
 
                     <h3 class="h3 blog-title">
-                      <a>The Most Inspiring Interior Design Of 2021</a>
+                      <a>The Most Inspiring Interior Design Of 2024</a>
                     </h3>
 
                   </div>
@@ -1045,7 +1009,7 @@
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                      <time datetime="2024-09-01">Sep 01, 2024</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1060,7 +1024,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                  <img src="images/blog-2.jpg" alt="Choose a House" class="w-100">
                 </figure>
 
                 <div class="blog-content">
@@ -1074,7 +1038,7 @@
                     </ul>
 
                     <h3 class="h3 blog-title">
-                      <a >Recent Commercial Real Estate Transactions</a>
+                      <a >How to Choose the Right House?</a>
                     </h3>
 
                   </div>
@@ -1083,7 +1047,7 @@
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                      <time datetime="2024-08-31">Aug 31, 2024</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1098,7 +1062,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner">
-                  <img src="images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
+                  <img src="images/blog-3.jpg" alt="Sell a House"
                     class="w-100">
                 </figure>
 
@@ -1113,7 +1077,7 @@
                     </ul>
 
                     <h3 class="h3 blog-title">
-                      <a>Renovating a Living Room? Experts Share Their Secrets</a>
+                      <a>Secrets of Selling Your House </a>
                     </h3>
 
                   </div>
@@ -1122,7 +1086,7 @@
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                      <time datetime="2024-27-08">Aug 27, 2024</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1183,7 +1147,7 @@
           </div>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+          Choose Niwahana constructions for your house construction needs and experience the excellence that has earned us the reputation of being the best house building contractor in Sri Lanka.
           </p>
 
           <ul class="contact-list">
@@ -1209,36 +1173,7 @@
 
           </ul>
 
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
+          
       </div>
     </div>
 
@@ -1246,7 +1181,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 <a href="#">Group AE</a>. All Rights Reserved
+          &copy; 2024 Group AE. All Rights Reserved
         </p>
 
       </div>

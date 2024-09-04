@@ -209,34 +209,6 @@ if(isset($_POST['submit'])){
 
           </ul>
 
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
         </div>
 
       </div>
@@ -246,7 +218,7 @@ if(isset($_POST['submit'])){
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 <a href="#">Group AE</a>. All Rights Reserved
+          &copy; 2024 Group AE. All Rights Reserved
         </p>
 
       </div>
